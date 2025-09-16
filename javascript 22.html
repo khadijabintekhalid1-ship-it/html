@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java script</title>
+</head>
+<body>
+    <h1>java script </h1>
+    <script>
+        //strings operation 
+        let text = "java script";
+        console.log(text);
+        console.log(text.length);
+        console.log(text.toUpperCase());
+        console.log(text.toLowerCase());
+        let ntext = text.toUpperCase()
+        console.log(ntext);
+     console.log(text.includes("java"))
+     console.log(text.charAt(7))
+
+        // 1. Check if number is even or odd
+        let num = 28;
+        if (num % 2 === 0) {
+            alert ("Number is even");
+        } else {
+            alert ("Number is odd");
+        }
+
+        // 2. Password check
+        let password = 888;
+        let userPassword = parseInt(prompt("Enter your password:"));
+        if (password === userPassword) {
+            alert("Password matched ");
+        } else {
+            alert("Password mismatched ");
+        }
+
+       // License eligibility check
+        let age = parseInt(prompt("Enter your age:"));
+        if (age >= 18) {
+            alert("Eligible for license ");
+        } else {
+            alert("Not eligible ");
+        }
+
+        //  Temperature check
+        let temp = 30;
+        let userTemp = parseInt(prompt("Enter temperature:"));
+        if (temp <= userTemp) {
+            alert("It's too hot 🌡️");
+        } else {
+            alert("Temperature is normal");
+        }
+
+
+
+    </script>
+</body>
+</html>
