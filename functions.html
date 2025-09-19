@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Function</title>
+</head>
+<body>
+    <h1>USER DEFINE FUNCTION </h1>
+    <script>
+        function saywelcome(){
+            console.log("WELCOME TO OUR PAGE")
+            alert ("your function is working")
+        };
+        saywelcome()
+       
+        //function with parameter
+function printmessage(name){
+    console.log("hey"+ name)
+    alert ("hey "+ name)
+};
+printmessage("ali")
+printmessage("sara")
+
+// add sub function
+function add(a,b){
+    return a+b
+};
+let res = add(5,5)
+console.log(res)
+
+// another function
+function welcome(name="GUEST"){
+    console.log("welcome"+name)
+};
+welcome();
+welcome("khadija")
+
+//function to check even or odd
+function even(no){
+    if (no % 2 ===0){
+        return "Even"
+    }else{
+        return "odd";
+    }
+};
+console.log(even(15));
+
+
+
+    </script>
+</body>
+</html>
